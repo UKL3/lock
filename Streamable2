@@ -1,4 +1,4 @@
-if getgenv().Aiming then return getgenv().Aiming end
+if getgenv().XENOPHOBIC then return getgenv().XENOPHOBIC end
 
 -- // Services
 local Players = game:GetService("Players")
@@ -34,7 +34,7 @@ local tableremove = table.remove
 local tableinsert = table.insert
 
 -- // Silent Aim Vars
-getgenv().Aiming = {
+getgenv().XENOPHOBIC = {
     Enabled = true,
 
     ShowFOV = false,
@@ -64,7 +64,7 @@ getgenv().Aiming = {
         }
     }
 }
-local Aiming = getgenv().Aiming
+local Aiming = getgenv().XENOPHOBIC
 
 -- // Create circle
 local circle = Drawingnew("Circle")

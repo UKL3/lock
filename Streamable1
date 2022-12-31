@@ -66,10 +66,10 @@ RunService:BindToRenderStep("AimLock", 0, function()
     
     mouse.KeyDown:Connect(function(value)
     if value == cframeSpheedhotkeyXd1 then
-    if DaHoodSettings.SilentAim == true then
-        DaHoodSettings.SilentAim = false
+    if XENOPHOBIC.SilentAim == true then
+        XENOPHOBIC.SilentAim = false
     else
-        DaHoodSettings.SilentAim = true
+        XENOPHOBIC.SilentAim = true
     end
     end
     end)
